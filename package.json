@@ -1,0 +1,26 @@
+{
+  "name": "portfolio-template",
+  "version": "1.0.0",
+  "description": "This is a simple and responsive portfolio template designed for showcasing your projects and skills. It is intended to be used as a frontend-only template, with the portfolio accessible via a link.",
+  "main": "index.js",
+  "scripts": {
+    //default
+    // "test": "echo \"Error: no test specified\" && exit 1",
+    //added
+    "start": "nodemon -e scss -x \"sass --watch ./scss/custom.scss ./css/custom.css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khalilelamraoui/Portfolio-template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/khalilelamraoui/Portfolio-template/issues"
+  },
+  "homepage": "https://github.com/khalilelamraoui/Portfolio-template#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.2"
+  }
+}
