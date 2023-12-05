@@ -27,19 +27,24 @@ You can view a live demo of this portfolio template [here](#insert-your-live-dem
 1. Clone the repository and navigate to the project directory:
 
    ```
-   git clone https://github.com/your-username/your-portfolio.git
-   cd your-portfolio
+   git clone https://github.com/khalilelamraoui/Portfolio-template.git
+   cd Portfolio-template
    ```
+2. Run this command every time you change **variables.scss**:
+   
+   ```
+   npm start
+   ```
+   
+3. Open index.html in your preferred code editor.
 
-2. Open index.html in your preferred code editor.
+4. Replace the placeholder content with your own projects, skills, and details.
 
-3. Replace the placeholder content with your own projects, skills, and details.
+5. Customize the styles in the css/style.css file to match your preferences.
 
-4. Customize the styles in the css/style.css file to match your preferences.
+6. Save your changes.
 
-5. Save your changes.
-
-6. Deploy your portfolio to a platform of your choice or use a service like GitHub Pages for easy hosting.
+7. Deploy your portfolio to a platform of your choice or use a service like GitHub Pages for easy hosting.
 
 ## Contributing 🤝
 
