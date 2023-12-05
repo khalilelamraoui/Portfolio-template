@@ -3,7 +3,14 @@
 
 // Include any default variable overrides here (though functions won't be available)
 // Color system
-
+$primary_override:       #3cba0a !default;
+$secondary_override:     purple !default;
+$success_override:       green !default;
+$info_override:          cyan !default;
+$warning_override:       yellow !default;
+$danger_override:        red !default;
+$light_override:         rgb(224, 220, 220) !default;
+$dark_override:          rgb(24, 23, 23) !default;
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 
