@@ -48,6 +48,9 @@
   fill: white;
   transition: all 250ms ease-in-out;
 }
+a{
+  text-decoration: none;
+}
 .show{
   transition: all .8s cubic-bezier(0.58, 0.03, 0.37, 0.99);
   border-radius: 5px;
@@ -88,6 +91,7 @@
 .card img{
   width: 96px !important;
   height: 96px !important;
+  object-fit: cover;
 }
 .tags{
 font-size: 13px;
