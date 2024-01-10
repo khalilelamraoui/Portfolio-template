@@ -1,3 +1,7 @@
+:root{
+  --dark: #1A1E23;
+}
+
 *{
   padding: 0;
   margin: 0;
@@ -7,6 +11,12 @@
 }
 .font-ibm{
   font-family: 'IBM Plex Mono';
+}
+.fs-14{
+  font-size: 14px !important;
+}
+.z-index-top{
+  z-index: 9999;
 }
 .my-container{
   padding: 0 128px !important;
@@ -40,6 +50,7 @@
 .nav-link:hover{
   color: #12F7D6 !important;
   transition: all 250ms ease-in-out;
+  transform: translateY(-2px);
 }
 .active svg{
   fill: #12F7D6 !important;
@@ -75,12 +86,13 @@ a{
 }
 .section1{
   padding: 64px 10px !important;
+  /* height: 90vh; */
 }
 .section1 h1{
   font-size: 50px !important;
   padding-bottom: 64px;
 }
-.card{
+.section1 .card{
   border-radius: 160px 0px;
   border: 4px solid var(--White, #FFF);
   background: var(--BG-1, #292F36);
@@ -105,6 +117,76 @@ font-size: 13px;
   width: 215px;
   height: 378px;
 }
+.section2{
+  background-color: rgb(26, 30, 35);
+}
+.section2>img{
+  z-index: 0;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  opacity: .2;
+  width: -webkit-fill-available;
+}
+.section2 .content{
+  padding: 64px 0 !important;
+  z-index: 1;
+}
+.section2 .content .text-content{
+  margin-top: 64px;
+}
+.section2 .text-content h1{
+  padding: 16px 40px;
+  border-radius: 40px 0px;
+  border: 4px solid var(--Brand-1, #12F7D6);
+  width: auto;
+}
+.paragraph{
+  border-radius: 40px;
+  padding: 24px 40px;
+}
+.text-content img{
+  border-radius: 16px;
+}
+.section2 .content img{
+  z-index: 2;
+}
+.section3{
+  background-color: #373737;
+}
+.section3>img{
+  z-index: 0;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  opacity: .2;
+  width: -webkit-fill-available;
+}
+.section3 .content{
+  padding: 64px 0 !important;
+  z-index: 1;
+}
+.box-icon{
+  width: 120px !important;
+  height: 120px !important;
+  margin: 0 auto;
+}
+.ico-text{
+  width: 120px;
+  margin: 0 auto;
+}
+.ico-1{
+  background-color: #E54F26;
+}
+.ico-2{
+  background-color: #0C73B8;
+}
+.ico-3{
+  background-color: #E7A020;
+}
+.ico-4{
+  background-color: #28A9E0;
+}
 @media (max-width: 1200px) {
   .my-container{
     padding: 0 1rem !important;
@@ -128,4 +210,12 @@ font-size: 13px;
   .navbar-expand-lg .nav-phone{
     display: none !important;
   }
+}
+
+.section4{
+  background-color: rgba(26, 30, 35, .1);
+}
+.section4 .content{
+  padding: 64px 0 !important;
+  z-index: 1;
 }
