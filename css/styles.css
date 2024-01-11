@@ -233,3 +233,17 @@ font-size: 13px;
   border: 4px solid var(--Brand-1, #12F7D6);
   width: fit-content !important;
 }
+
+.inputs input{
+  border: none;
+}
+.inputs input:focus{
+  outline: none;
+}
+.inputs input::placeholder{
+  color: white;
+}
+.inputs{
+  border-bottom: 1px solid rgb(18, 247, 214, .7);
+  padding-bottom: 10px;
+}
